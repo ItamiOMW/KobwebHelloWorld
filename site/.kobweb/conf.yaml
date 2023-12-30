@@ -1,0 +1,14 @@
+site:
+  title: "KobwebHelloWorld"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/kobweb_hello_world.js"
+      api: "build/libs/kobweb_hello_world.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/kobweb_hello_world.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
